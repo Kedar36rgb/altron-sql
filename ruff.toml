@@ -1,0 +1,6 @@
+﻿lint.ignore = [
+    "BLE001", # Allow catching general Exception
+    "T201",   # Allow print statements
+    "S101",   # Allow assert statements in tests
+    "E501",   # Allow long lines (optional, but helpful)
+]
